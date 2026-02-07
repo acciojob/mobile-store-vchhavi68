@@ -9,8 +9,8 @@ const AdminProdcut = () => {
       <p>Product {id}</p>
       <input name="title" id="title" />
 
-      <button data-testid="delete-btn">Delete</button>
-      <button data-testid="update-btn">Save</button>
+      <button>Delete</button>
+      <button>Save</button>
     </div>
   );
 };
