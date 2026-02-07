@@ -1,12 +1,11 @@
 import React from "react";
-import './../styles/App.css';
+import "./../styles/App.css";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Home from "./home";
 import Header from "./header";
 import Admin from "./admin";
 import Product from "./product";
 import AdminProdcut from "./adminProduct";
-
 
 const App = () => {
   return (
